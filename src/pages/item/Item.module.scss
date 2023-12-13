@@ -2,9 +2,11 @@
     background: #ECF7FF;
     color: black;
     padding-inline: 3rem;
+    height: 110vh;
 
     @media only screen and (max-width: 768px) {
         padding-inline: 1rem;
+        height: auto;
     }
 
     .itemColumns{
