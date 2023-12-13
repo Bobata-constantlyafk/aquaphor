@@ -1,4 +1,4 @@
-## Aquaphore Showcase 🚀
+## Aquaphore Showcase 🌀
 Welcome to the Aquaphore Product Showcase. The company Aquaphore is looking to hire me, I suggested to  create a static website to highlight my design and web development skills, showcasing both my abilities and initiative.  
 
 
