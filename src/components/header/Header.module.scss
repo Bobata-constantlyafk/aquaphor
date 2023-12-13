@@ -1,0 +1,21 @@
+.header{
+    display:grid;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: #87CEEB;
+    margin-left: -3.5vw;
+    margin-right: -3.5vw;
+
+    .logo{
+        width: 15rem;
+        height: auto;
+    }
+
+    .search,.menu{
+        height: auto;
+        cursor: pointer;
+        width: 2rem;
+    }
+}

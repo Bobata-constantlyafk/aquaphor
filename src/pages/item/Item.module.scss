@@ -1,0 +1,161 @@
+.itemMain{
+    background: #ECF7FF;
+    color: black;
+    padding-inline: 3rem;
+
+    @media only screen and (max-width: 768px) {
+        padding-inline: 1rem;
+    }
+
+    .itemColumns{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 4vw;
+        padding-bottom: 8vw;
+        gap: 2rem;
+
+        @media only screen and (max-width: 768px) {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap:0rem;
+            padding-bottom: 0vw;
+            padding-top: 0vw;
+        }
+
+        .itemImages{
+            margin-bottom: 0rem;
+            padding-bottom: 0rem;
+            justify-self: center;
+            @media only screen and (max-width: 768px) {
+                height: 25rem;
+                margin-bottom: 0rem;
+                margin-bottom: 0rem;
+            }
+            .itemImage{
+                width: auto;
+                height: 35rem;
+                justify-self: center;
+
+                @media only screen and (max-width: 768px) {
+                    margin-top: 2rem;
+                    height: 20rem;
+                    width: 20rem;
+                }
+            }
+        }
+
+        .itemDescription{
+            @media only screen and (max-width: 768px) {
+                text-align: center;
+                margin-top: -10rem;
+            }
+            h1,h2{
+                font-family:'Atyp-light', 'Alegreya Sans';
+            }
+
+            h1{
+                color:#20789c;
+                font-size: 4rem;
+                font-weight: 100;
+            }
+            
+            h2{
+                color:#83b2c4;
+                margin-top: 1rem;
+                font-size: 2rem;
+            }
+
+            p{
+                font-family:'Atyp';
+                margin-top: 4rem;
+                font-size: 1rem;
+                @media only screen and (max-width: 768px) {
+                    font-size: 1.2rem;
+                }
+            }
+
+            .itemButtons{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                margin-top: 6rem;
+
+                @media only screen and (max-width: 768px) {
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 1fr 1fr;
+                    margin-top: 4rem;
+                }
+
+                button{
+                    display: inline-block;
+                    outline: 0;
+                    border: 0;
+                    background: white;
+                    color: black;
+                    border-radius: 8px;
+            
+                    font-size: 1.6rem;
+                    font-weight: 100;
+                    font-family: 'Atyp-semi', 'Alegreya Sans';
+                    letter-spacing: 2px;
+                    line-height: 1;
+                    
+                    cursor: pointer;
+                    width:15rem;
+                    height: 3.5rem;
+                    transition: transform 200ms, background 200ms;
+                    :hover{
+                        transform: translateY(-2px);
+                    }
+                }
+
+                .addtocart{
+                    display:grid;
+                    grid-template-columns: 200px 1px;
+                    justify-self: start;
+                    @media only screen and (max-width: 768px) {
+                        justify-self: center;
+                    }
+                    align-items: center;
+                    background-color: black;
+                    color: white;
+                    img{
+                        display: grid;
+                        width: 3rem;
+                        justify-self: end;
+                    }
+                }
+
+                .quantity{
+                    padding-top: 0.5rem;
+                    padding-bottom: 0.5rem;
+                    border: 2px solid black;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    justify-self: end;
+                    @media only screen and (max-width: 768px) {
+                        margin-top: 0rem;
+                        margin-bottom: 2rem;
+                        justify-self: center;
+                        padding-left: 3rem;
+                        padding-right: 3rem;
+                    }
+                    
+                    img{
+                        width: 1.5rem;
+                        align-self: end;
+                    }
+                    input{
+                        font-size: 2rem;
+                        margin-right: 2rem;
+                        margin-left: 2rem;
+                        width: 30px;
+                        background-color: transparent;
+                        border-style: none;
+                        align-content: start;
+                    }
+                }
+            }
+
+        }
+    }
+}

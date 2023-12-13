@@ -1,0 +1,62 @@
+.shopMain{
+    background: #ECF7FF;
+    color:black;
+    padding-inline: 3rem;
+    @media only screen and (max-width: 768px) {
+        padding-inline: 1rem;
+    }
+
+      .shopThreeColumns{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 4rem;
+        justify-items: center;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+        @media only screen and (max-width: 768px) {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 0.5rem
+        }
+
+        .shopColumn{
+            display: grid;
+            justify-items: center;
+            .itemImage{
+                width: auto;
+                height: 20rem;
+            }
+            h1,h2,p{
+                text-align: center;
+            }
+            h1{
+                font-size: 2.8rem;
+                font-family: 'Atyp-light', 'Alegreya Sans';
+                font-weight: 600;
+                margin-bottom: 0.5rem;
+                @media only screen and (max-width: 768px) {
+                margin-top: 1rem;
+                }
+            }
+            p{
+                font-size: 1.3rem;
+                margin-top: 0rem;
+                margin-bottom: 4rem;
+                font-family: 'Atyp-light', 'Alegreya Sans';
+                @media only screen and (max-width: 768px) {
+                margin-bottom: 2rem;
+                }
+
+            }
+            h2{
+                font-size: 2rem;
+                font-weight: 100;
+                font-family: 'Atyp', 'Alegreya Sans';
+                @media only screen and (max-width: 768px) {
+                    margin-bottom: 6rem;
+                }
+            }
+        }
+      }
+    
+}

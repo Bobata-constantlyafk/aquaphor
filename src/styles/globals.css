@@ -38,6 +38,7 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -77,6 +78,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  
 }
 
 html,
@@ -84,6 +86,32 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
 }
+@font-face {
+  font-family: 'Atyp';
+  src: url('/AtypDisplay-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Atyp-light';
+  src: url('/Suitcase Type Foundry - Atyp Text Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Atyp-bold';
+  src: url('/Suitcase Type Foundry - Atyp Text Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Atyp-semi';
+  src: url('/Suitcase Type Foundry - Atyp Display Semibold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Atyp-mid';
+  src: url('/AtypDisplay-Medium.ttf') format('truetype');
+}
+
+AtypDisplay-Medium
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -95,13 +123,15 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+
+
 a {
   color: inherit;
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
 }
