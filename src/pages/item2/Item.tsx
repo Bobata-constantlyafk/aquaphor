@@ -15,7 +15,7 @@ const Item: FC = () => {
           />
         </div>
         <div className={styles.itemDescription}>
-          <h1>Aquaeffect кана (синя)</h1>
+          <h1>Aquaeffect кана (бяла)</h1>
           <h2>Филтрираща кана</h2>
           <p>
             Аквафор Орлеан A5 Mg+ е кана за филтриране на вода от ново поколение
