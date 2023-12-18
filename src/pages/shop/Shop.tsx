@@ -17,7 +17,7 @@ const Shop: FC = () => {
           </div>
         </Link>
 
-        <Link href="/item" passHref>
+        <Link href="/item2" passHref>
           <div className={styles.shopColumn}>
             <img className={styles.itemImage} src="/kana-white.png" />
             <h1>Aquaeffect Кана</h1>
